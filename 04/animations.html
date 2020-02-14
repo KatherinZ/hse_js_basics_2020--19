@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="animations.css">
   </head>
   <body>
-    <div class="box" onclick="reset()">
-
+    <div class="box" class="blinking" onclick="reset()">
+      <p id ="textInput"></p>
     </div>
     <button onclick="paintItBlack()">
       Покрасить черным
@@ -21,11 +21,11 @@
     <button onclick="makeBlinking()">
       Сделать мигающим
     </button>
-    <input type="text" placeholder="Напишите любое слово">
+    <input type="text" placeholder="Напишите любое слово" id = "myText">
     <button onclick="addText()">
       Добавить надпись
     </button>
-    <input type="text" placeholder="Напишите название цвета на инглише или в HEXе">
+    <input type="text" placeholder="Напишите название цвета на инглише или в HEXе" id = "myColor">
     <button onclick="changeColor()">
       Поменять цвет на введенный
     </button>
