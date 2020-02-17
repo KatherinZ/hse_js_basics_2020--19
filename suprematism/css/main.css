@@ -1,0 +1,38 @@
+@import "reset.css";
+
+main{
+  display: block;
+}
+.circle_big{
+  width: 128px;
+  height: 128px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.circle_small{
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.rect{
+  width: 85px;
+  height: 85px;
+  background-color:#A32704;
+  transform: rotate(45deg);
+}
+.tri_ord{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 50px solid #A32704;
+}
+.half_small{
+  width: 127px;
+  height: 127px;
+  stroke-width: 6px;
+  stroke: black;
+  fill: white;
+
+}
