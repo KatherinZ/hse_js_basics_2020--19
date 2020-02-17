@@ -1,38 +1,116 @@
 @import "reset.css";
-
+body{
+  background-color: #E5E5E5;
+}
 main{
+  margin-left: 100px;
+  position: absolute;
   display: block;
+  text-align: center;
 }
 .circle_big{
-  width: 128px;
-  height: 128px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  width: 280px;
+  height: 280px;
   background-color: #000;
   border-radius: 50%;
 }
 .circle_small{
-  width: 25px;
-  height: 25px;
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  width: 55px;
+  height: 55px;
   background-color: #fff;
   border-radius: 50%;
 }
 .rect{
-  width: 85px;
-  height: 85px;
+  position: absolute;
+  left: 650px;
+  top: 500px;
+  width: 185px;
+  height: 185px;
   background-color:#A32704;
   transform: rotate(45deg);
 }
 .tri_ord{
+  position: absolute;
+  left: 500px;
+  top: 530px;
   width: 0;
   height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 50px solid #A32704;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-top: 90px solid #A32704;
+  transform: rotate(-100deg);
 }
-.half_small{
-  width: 127px;
-  height: 127px;
-  stroke-width: 6px;
-  stroke: black;
-  fill: white;
+.tri_cond{
+  position: absolute;
+  left: 550px;
+  top: 240px;
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 130px solid #A32704;
+  transform: rotate(65deg);
+}
+.black_line_thin{
+  position: absolute;
+  left: 620px;
+  top: 550px;
+  width: 144px;
+  height: 4.5px;
+  background-color: #000;
+  transform: rotate(75deg);
+}
+.black_line_fat{
+  position: absolute;
+  left: 570px;
+  top: 450px;
+  width: 240px;
+  height: 8px;
+  background-color: #000;
+  transform: rotate(75deg);
+}
+.white_line{
+  position: absolute;
+  left: 770px;
+  top: 00px;
+  width: 6.5px;
+  height: 365px;
+  background-color: #fff;
+  transform: rotate(-105deg);
+}
 
+.black_fat{
+  position: absolute;
+  left: 270px;
+  top: 420px;
+  width: 212px;
+  height: 425px;
+}
+.black_thin{
+  position: absolute;
+  left: 330px;
+  top: 400px;
+  width: 280px;
+  height: 150px;
+}
+
+.thin_red{
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  width: 232px;
+  height: 232px;
+}
+.fat_red{
+  position: absolute;
+  left: 520px;
+  top: 30px;
+  width: 332px;
+  height: 332px;
 }
